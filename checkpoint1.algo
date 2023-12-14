@@ -1,0 +1,27 @@
+
+ALGORITHM sentence
+VAR
+INTEGER nbrMot=1
+INTEGER nbrVoy
+INTEGER i,j
+STRING sentence =""
+
+CONST 
+STRING voyelle= "AEIOUY"
+    
+BEGIN
+    Write=("input a sentence")
+    Read(sentence)
+    mot = 0
+    for i from 0 to sentence.lenght - 1{
+        if sentence[i]==" "{
+            nbrMot = nbrMot + 1 
+            for j from 0 to voyelle.lenght - 1 {
+        }
+        if toUpper.sentence[i] in voyelle[j] {
+            nbrVoy = nbrVoy + 1
+        }}
+    }
+    Write ("there are",nbrMot,"sentences and ",nbrVoy,"vowels")
+
+END
